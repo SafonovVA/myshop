@@ -1102,3 +1102,18 @@
 [2019-09-13 20:10:12] Текст ошибки:
         Страница не найдена | Файл: C:\OSPanel\domains\myshop\vendor\myshop\core\Router.php | Строка: 37 
 =========================
+[2019-09-13 18:07:14] Текст ошибки:
+        Страница не найдена | Файл: C:\OSPanel\domains\myshop\vendor\myshop\core\Router.php | Строка: 37 
+=========================
+[2019-09-13 18:08:40] Текст ошибки:
+        Call to undefined function app\controllers\dubug() | Файл: C:\OSPanel\domains\myshop\app\controllers\MainController.php | Строка: 10 
+=========================
+[2019-09-13 18:08:51] Текст ошибки:
+        Call to undefined function app\controllers\dubug() | Файл: C:\OSPanel\domains\myshop\app\controllers\MainController.php | Строка: 10 
+=========================
+[2019-09-13 18:10:52] Текст ошибки:
+        Контроллер app\controllers\HeheController не найден | Файл: C:\OSPanel\domains\myshop\vendor\myshop\core\Router.php | Строка: 34 
+=========================
+[2019-09-13 18:10:56] Текст ошибки:
+        Контроллер app\controllers\HeheController не найден | Файл: C:\OSPanel\domains\myshop\vendor\myshop\core\Router.php | Строка: 34 
+=========================
