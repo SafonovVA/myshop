@@ -1075,3 +1075,30 @@
 [2019-07-28 21:56:10] Текст ошибки:
         Страница не найдена | Файл: C:\OSPanel\domains\myshop\public\index.php | Строка: 10 
 =========================
+[2019-09-13 19:48:00] Текст ошибки:
+        Class 'ishop\Router' not found | Файл: C:\OSPanel\domains\myshop\public\index.php | Строка: 9 
+=========================
+[2019-09-13 19:48:00] Текст ошибки:
+        Class 'ishop\Router' not found | Файл: C:\OSPanel\domains\myshop\public\index.php | Строка: 9 
+=========================
+[2019-09-13 19:48:43] Текст ошибки:
+        Class 'ishop\Router' not found | Файл: C:\OSPanel\domains\myshop\public\index.php | Строка: 9 
+=========================
+[2019-09-13 19:48:44] Текст ошибки:
+        Class 'ishop\Router' not found | Файл: C:\OSPanel\domains\myshop\public\index.php | Строка: 9 
+=========================
+[2019-09-13 19:53:06] Текст ошибки:
+        Class 'ishop\Router' not found | Файл: C:\OSPanel\domains\myshop\public\index.php | Строка: 9 
+=========================
+[2019-09-13 19:53:06] Текст ошибки:
+        Class 'ishop\Router' not found | Файл: C:\OSPanel\domains\myshop\public\index.php | Строка: 9 
+=========================
+[2019-09-13 19:53:10] Текст ошибки:
+        Class 'ishop\Router' not found | Файл: C:\OSPanel\domains\myshop\public\index.php | Строка: 9 
+=========================
+[2019-09-13 19:53:10] Текст ошибки:
+        Class 'ishop\Router' not found | Файл: C:\OSPanel\domains\myshop\public\index.php | Строка: 9 
+=========================
+[2019-09-13 20:10:12] Текст ошибки:
+        Страница не найдена | Файл: C:\OSPanel\domains\myshop\vendor\myshop\core\Router.php | Строка: 37 
+=========================

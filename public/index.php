@@ -5,4 +5,5 @@ require_once LIBS . '/functions.php';
 require_once CONF . '/routes.php';
 
 new \myshop\App();
-new Exception('Страница не найдена', 404);
+
+//debug(\myshop\Router::getRoutes());
