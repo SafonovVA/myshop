@@ -1117,3 +1117,6 @@
 [2019-09-13 18:10:56] Текст ошибки:
         Контроллер app\controllers\HeheController не найден | Файл: C:\OSPanel\domains\myshop\vendor\myshop\core\Router.php | Строка: 34 
 =========================
+[2019-09-14 08:22:05] Текст ошибки:
+        Страница не найдена | Файл: C:\OSPanel\domains\myshop\vendor\myshop\core\Router.php | Строка: 38 
+=========================
