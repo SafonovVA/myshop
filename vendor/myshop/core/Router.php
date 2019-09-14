@@ -15,26 +15,26 @@ class Router{
         return self::$routes;
     }
 
-    public static function getRoute(){
+    public static function getRoute() {
         return self::$route;
     }
 
-    public static function dispatch($url){
-        if(self::matchRoute($url)){
+    public static function dispatch($url) {
+        if(self::matchRoute($url)) {
             $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
-            if(class_exists($controller)){
+            if(class_exists($controller)) {
                 $controllerObject = new $controller(self::$route);
                 $action = self::lowerCamelCase(self::$route['action']) . 'Action';
-                if(method_exists($controllerObject, $action)){
+                if(method_exists($controllerObject, $action)) {
                     $controllerObject->$action();
                     $controllerObject->getView();
-                }else{
+                } else {
                     throw new \Exception("Метод $controller::$action не найден", 404);
                 }
-            }else{
+            } else {
                 throw new \Exception("Контроллер $controller не найден", 404);
             }
-        }else{
+        } else {
             throw new \Exception("Страница не найдена", 404);
         }
     }
@@ -42,8 +42,8 @@ class Router{
     public static function matchRoute($url){
         foreach(self::$routes as $pattern => $route){
             if(preg_match("#{$pattern}#", $url, $matches)){
-                foreach($matches as $k => $v){
-                    if(is_string($k)){
+                foreach($matches as $k => $v) {
+                    if(is_string($k)) {
                         $route[$k] = $v;
                     }
                 }
